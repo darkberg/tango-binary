@@ -3,13 +3,13 @@
     <!-- File Manager !-->
     <string name="app_name">3D Scanner</string>
     <string name="no_data">No 3D models</string>
-    <string name="name_exists">A model with the entered name already exists</string>
+    <string name="name_exists">A model with the entered name already exists.</string>
     <string name="invalid_name">Invalid file name!</string>
     <string name="delete">Delete the model</string>
     <string name="capture">Scan</string>
     <string name="scene_res">Choose capturing resolution</string>
     <string name="settings">Settings</string>
-    <string name="move">Move the device around to start scanning</string>
+    <string name="move">Move the device around to start scanning.</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Colors</string>
@@ -22,12 +22,12 @@
     <string name="editor_colors_reset">Reset</string>
     <string name="editor_select_all">All/None</string>
     <string name="editor_select_object">Object</string>
-    <string name="editor_select_object_desc">Tap on the object you want select</string>
-    <string name="editor_select_rect">Rect</string>
-    <string name="editor_select_rect_desc">Create selection rect by dragging rect on screen</string>
+    <string name="editor_select_object_desc">Tap on the object you want to select.</string>
+    <string name="editor_select_rect">Rectangle</string>
+    <string name="editor_select_rect_desc">Create selection rectangle by dragging a rectangle on screen.</string>
     <string name="editor_select_less">Less</string>
     <string name="editor_select_more">More</string>
-    <string name="editor_transform_clone">Clone</string>
+    <string name="editor_transform_clone">Copy</string>
     <string name="editor_transform_delete">Delete</string>
     <string name="editor_transform_move">Move</string>
     <string name="editor_transform_rotate">Rotate</string>
@@ -35,13 +35,13 @@
 
     <!-- Settings !-->
     <string name="possion_reconstruction">Poisson reconstruction</string>
-    <string name="possion_reconstruction_summary">Enable postprocessing algorithm to fix holes in model geometry, note that this algorithm does not work well with open spaces and it can make postprocessing longer</string>
+    <string name="possion_reconstruction_summary">Enable postprocessing algorithm to fix holes in model geometry. Note that this algorithm does not work well with open spaces and it can make postprocessing longer.</string>
     <string name="realtime_noise_filter">Realtime noise filter</string>
-    <string name="realtime_noise_filter_summary">A noise filter can improve the quality a lot but it makes capturing slower</string>
+    <string name="realtime_noise_filter_summary">A noise filter can improve the quality a lot but it makes capturing slower.</string>
     <string name="solid_color_surface">Solid color surfaces detection</string>
-    <string name="solid_color_surface_summary">It improves scanning in interiors but it can produce unexpected results</string>
+    <string name="solid_color_surface_summary">It improves scanning in interiors but it can produce unexpected results.</string>
     <string name="unsharp_textures">Unsharp textures correction</string>
-    <string name="unsharp_textures_summary">This method improves the model texture quality. Note that this function makes postprocessing much longer</string>
+    <string name="unsharp_textures_summary">This method improves the model texture quality. Note that this function makes postprocessing much longer.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="compressing">Compressing files…</string>
@@ -61,7 +61,7 @@
     <string name="action_finish">Finish</string>
     <string name="action_cancel">Cancel operation</string>
     <string name="enter_filename">Enter the file name</string>
-    <string name="failed">Processing failed, scanned data are lost!</string>
+    <string name="failed">Processing failed, scanned data was lost!</string>
     <string name="finished">Operation finished</string>
     <string name="paused">Scanning paused</string>
     <string name="postprocessing">Postprocessing the model…</string>
@@ -69,7 +69,7 @@
     <string name="sketchfab_uploading">Uploading the model to Sketchfab…</string>
     <string name="turn_off">You can exit the app without losing data.</string>
     <string name="warning">Warning</string>
-    <string name="working">The app is working, please do not turn off the device or start another AR app.</string>
+    <string name="working">The app is working, please do not turn off the device and do not start another AR app.</string>
 
     <!-- Event !-->
     <string name="event_bright">Too bright for scanning</string>

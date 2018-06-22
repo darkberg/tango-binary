@@ -2,14 +2,14 @@
 <resources>
     <!-- File Manager !-->
     <string name="app_name">3D Scanner</string>
-    <string name="no_data">Keine 3D Modelle</string>
+    <string name="no_data">Keine 3D-Modelle</string>
     <string name="name_exists">Ein Modell mit dem eingegebenen Namen existiert bereits.</string>
     <string name="invalid_name">Ungültiger Dateiname!</string>
-    <string name="delete">Löschen das Modell</string>
+    <string name="delete">Löschen des Modells</string>
     <string name="capture">Scannen</string>
     <string name="scene_res">Wählen Sie die Aufnahmeauflösung</string>
     <string name="settings">Einstellungen</string>
-    <string name="move">Bewegen Sie das Gerät, um mit dem Scannen zu beginnen</string>
+    <string name="move">Bewegen Sie das Gerät, um mit dem Scannen zu beginnen.</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Farben</string>
@@ -18,34 +18,34 @@
     <string name="editor_colors_contrast">Kontrast</string>
     <string name="editor_colors_gamma">Gamma</string>
     <string name="editor_colors_saturation">Sättigung</string>
-    <string name="editor_colors_reset">Reset</string>
-    <string name="editor_colors_tone">Ton</string>
+    <string name="editor_colors_reset">Zurück</string>
+    <string name="editor_colors_tone">Farbton</string>
     <string name="editor_select_all">Alle/Keine</string>
     <string name="editor_select_object">Objekt</string>
     <string name="editor_select_object_desc">Tippen Sie auf das Objekt, das Sie auswählen möchten.</string>
-    <string name="editor_select_rect">Rekt</string>
-    <string name="editor_select_rect_desc">Selektionsrechte erzeugen durch Ziehen des Rechtecks auf dem Bildschirm</string>
+    <string name="editor_select_rect">Rechteck</string>
+    <string name="editor_select_rect_desc">Durch Ziehen eine rechteckige Selektion erstellen.</string>
     <string name="editor_select_less">Weniger</string>
     <string name="editor_select_more">Mehr</string>
-    <string name="editor_transform_clone">Klon</string>
+    <string name="editor_transform_clone">Kopieren</string>
     <string name="editor_transform_delete">Löschen</string>
     <string name="editor_transform_move">Verschieben</string>
     <string name="editor_transform_rotate">Drehen</string>
-    <string name="editor_transform_scale">Skalierung</string>
+    <string name="editor_transform_scale">Skalieren</string>
 
     <!-- Settings !-->
     <string name="possion_reconstruction">Poisson-Rekonstruktion</string>
-    <string name="possion_reconstruction_summary">Aktivieren Sie den Nachbearbeitungsalgorithmus, um Löcher in der Modellgeometrie zu fixieren, beachten Sie, dass dieser Algorithmus nicht gut mit offenen Räumen funktioniert und die Nachbearbeitung länger dauern kann</string>
+    <string name="possion_reconstruction_summary">Aktivieren Sie den Nachbearbeitungsalgorithmus, um Löcher in der Modellgeometrie zu beheben. Beachten Sie, dass dieser Algorithmus nicht gut mit offenen Räumen funktioniert und die Nachbearbeitung länger dauern kann.</string>
     <string name="realtime_noise_filter">Echtzeit Rauschfilter</string>
-    <string name="realtime_noise_filter_summary">Ein Rauschfilter kann die Qualität erheblich verbessern, aber er macht die Aufnahme langsamer.</string>
+    <string name="realtime_noise_filter_summary">Ein Rauschfilter kann die Qualität erheblich verbessern, macht aber die Aufnahme langsamer.</string>
     <string name="solid_color_surface">Erkennung von Uni-Farbflächen</string>
-    <string name="solid_color_surface_summary">Es verbessert das Scannen in Innenräumen, kann aber zu unerwarteten Ergebnissen führen</string>
+    <string name="solid_color_surface_summary">Verbessert das Scannen in Innenräumen, kann aber zu unerwarteten Ergebnissen führen.</string>
     <string name="unsharp_textures">Korrektur von unscharfen Texturen</string>
-    <string name="unsharp_textures_summary">Diese Methode verbessert die Qualität der Modelltextur. Beachten Sie, dass diese Funktion die Nachbearbeitung erheblich verlängert</string>
+    <string name="unsharp_textures_summary">Diese Methode verbessert die Qualität der Modelltextur. Beachten Sie, dass diese Funktion die Nachbearbeitung erheblich verlängert.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="compressing">Dateien komprimieren…</string>
-    <string name="continue_question">Wollen Sie weitermachen?</string>
+    <string name="continue_question">Wollen Sie fortfahren?</string>
     <string name="description">Beschreibung:</string>
     <string name="model_name">Modellname:</string>
     <string name="sketchfab_dialog_title">Hochladen auf Sketchfab</string>
@@ -58,21 +58,21 @@
     <!-- Service !-->
     <string name="action_continue">Scannen fortsetzen</string>
     <string name="action_show_result">Ergebnis anzeigen</string>
-    <string name="action_finish">Beendigen</string>
+    <string name="action_finish">Beenden</string>
     <string name="action_cancel">Vorgang abbrechen</string>
-    <string name="enter_filename">Geben Sie den Dateinamen</string>
-    <string name="failed">Verarbeitung fehlgeschlagen, gescannte Daten gehen verloren!</string>
+    <string name="enter_filename">Geben Sie den Dateinamen ein</string>
+    <string name="failed">Verarbeitung fehlgeschlagen, gescannte Daten wurden gelöscht!</string>
     <string name="finished">Vorgang beendet</string>
     <string name="paused">Scannen pausiert</string>
-    <string name="postprocessing">Nachbearbeitung des Modells…</string>
-    <string name="saving">Speichern des Modells…</string>
-    <string name="sketchfab_uploading">Hochladen des Modells in die Sketchfab…</string>
+    <string name="postprocessing">Nachbearbeitung des Modells …</string>
+    <string name="saving">Speichern des Modells …</string>
+    <string name="sketchfab_uploading">Hochladen des Modells zu Sketchfab …</string>
     <string name="turn_off">Sie können die Anwendung beenden, ohne Daten zu verlieren.</string>
     <string name="warning">Warnung</string>
-    <string name="working">Die App funktioniert, bitte schalten Sie das Gerät nicht aus oder starten Sie eine andere AR-Applikation.</string>
+    <string name="working">Die App funktioniert, bitte schalten Sie das Gerät nicht aus und starten Sie keine andere AR-Applikation.</string>
 
     <!-- Event !-->
-    <string name="event_bright">Zu hell für das Scannen</string>
+    <string name="event_bright">Zu hell zum Scannen</string>
     <string name="event_dark">Zu dunkel zum Scannen</string>
     <string name="event_features">Motion Tracking erkannte Probleme</string>
     <string name="event_convert">Konvertierung von Daten</string>
@@ -86,7 +86,7 @@
         <item>1 cm - nur Objekte</item>
         <item>2 cm - kleines Zimmer</item>
         <item>3 cm - großes Zimmer</item>
-        <item>4 cm - innen</item>
+        <item>4 cm - drinnen</item>
         <item>5 cm - draußen</item>
     </string-array>
 </resources>

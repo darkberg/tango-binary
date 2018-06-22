@@ -3,13 +3,13 @@
     <!-- File Manager !-->
     <string name="app_name">3D Scanner</string>
     <string name="no_data">Žádné 3D modely</string>
-    <string name="name_exists">Model s zadaným jménem už existuje</string>
+    <string name="name_exists">Model s zadaným jménem už existuje.</string>
     <string name="invalid_name">Neplatné jméno!</string>
     <string name="delete">Vymazat model</string>
     <string name="capture">Skenovat</string>
     <string name="scene_res">Vyberte rozlišení skenování</string>
     <string name="settings">Nastavení</string>
-    <string name="move">Pohybujte zařízením kolem, abyste spustili skenování</string>
+    <string name="move">Pohybujte zařízením kolem, abyste spustili skenování.</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Barvy</string>
@@ -22,12 +22,12 @@
     <string name="editor_colors_tone">Tón</string>
     <string name="editor_select_all">Vše/Nic</string>
     <string name="editor_select_object">Objekt</string>
-    <string name="editor_select_object_desc">Klikněte na objekt pro výběr</string>
+    <string name="editor_select_object_desc">Klikněte na objekt pro výběr.</string>
     <string name="editor_select_rect">Obdelník</string>
-    <string name="editor_select_rect_desc">Tažení po displeji proveďte výběr</string>
+    <string name="editor_select_rect_desc">Tažení po displeji proveďte výběr.</string>
     <string name="editor_select_less">Méně</string>
     <string name="editor_select_more">Více</string>
-    <string name="editor_transform_clone">Klonovat</string>
+    <string name="editor_transform_clone">Kopírovat</string>
     <string name="editor_transform_delete">Smazat</string>
     <string name="editor_transform_move">Posunout</string>
     <string name="editor_transform_rotate">Otočit</string>
@@ -47,13 +47,13 @@
 
     <!-- Settings !-->
     <string name="possion_reconstruction">Poissonova rekonstrukce</string>
-    <string name="possion_reconstruction_summary">Povolit algoritmus postprocessingu k opravě děr v geometrii modelu, tento algoritmus nefunguje dobře s otevřenými prostory a může značně prodloužit zpracovávání modelu</string>
+    <string name="possion_reconstruction_summary">Povolit algoritmus postprocessingu k opravě děr v geometrii modelu. Tento algoritmus nefunguje dobře s otevřenými prostory a může značně prodloužit zpracovávání modelu.</string>
     <string name="realtime_noise_filter">Realtimový filtr šumu</string>
-    <string name="realtime_noise_filter_summary">Filtr šumu může značně zlepšit kvalitu, ale zpomaluje skenování</string>
+    <string name="realtime_noise_filter_summary">Filtr šumu může značně zlepšit kvalitu, ale zpomaluje skenování.</string>
     <string name="solid_color_surface">Detekce jednobarevných povrchů</string>
-    <string name="solid_color_surface_summary">Zlepšuje skenování v interiérech, ale může způsobit neočekávané výsledky</string>
+    <string name="solid_color_surface_summary">Zlepšuje skenování v interiérech, ale může způsobit neočekávané výsledky.</string>
     <string name="unsharp_textures">Oprava rozostřených textur</string>
-    <string name="unsharp_textures_summary">Tato metoda zlepší kvalitu textur modelu. Tato funkce značně zpomalí postprocessing</string>
+    <string name="unsharp_textures_summary">Tato metoda zlepší kvalitu textur modelu. Tato funkce značně zpomalí postprocessing.</string>
 
     <!-- Service !-->
     <string name="action_continue">Pokračovat ve skenování</string>
