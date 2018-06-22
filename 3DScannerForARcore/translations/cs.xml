@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- File Manager !-->
+    <string name="app_name">3D Scanner</string>
+    <string name="no_data">Žádné 3D modely</string>
+    <string name="name_exists">Model s zadaným jménem už existuje</string>
+    <string name="invalid_name">Neplatné jméno!</string>
+    <string name="delete">Vymazat model</string>
+    <string name="capture">Skenovat</string>
+    <string name="scene_res">Vyberte rozlišení skenování</string>
+    <string name="settings">Nastavení</string>
+    <string name="move">Pohybujte zařízením kolem, abyste spustili skenování</string>
+
+    <!-- Editor !-->
+    <string name="editor_main_colors">Barvy</string>
+    <string name="editor_main_select">Vybrat</string>
+    <string name="editor_main_transform">Transformovat</string>
+    <string name="editor_colors_contrast">Kontrast</string>
+    <string name="editor_colors_gamma">Světlost</string>
+    <string name="editor_colors_saturation">Sytost</string>
+    <string name="editor_colors_reset">Resetovat</string>
+    <string name="editor_colors_tone">Tón</string>
+    <string name="editor_select_all">Vše/Nic</string>
+    <string name="editor_select_object">Objekt</string>
+    <string name="editor_select_object_desc">Klikněte na objekt pro výběr</string>
+    <string name="editor_select_rect">Obdelník</string>
+    <string name="editor_select_rect_desc">Tažení po displeji proveďte výběr</string>
+    <string name="editor_select_less">Méně</string>
+    <string name="editor_select_more">Více</string>
+    <string name="editor_transform_clone">Klonovat</string>
+    <string name="editor_transform_delete">Smazat</string>
+    <string name="editor_transform_move">Posunout</string>
+    <string name="editor_transform_rotate">Otočit</string>
+    <string name="editor_transform_scale">Škálovat</string>
+
+    <!-- Sketchfab uploader !-->
+    <string name="compressing">Zabaluji soubory…</string>
+    <string name="continue_question">Chcete pokračovat?</string>
+    <string name="description">Popis:</string>
+    <string name="model_name">Název modelu:</string>
+    <string name="sketchfab_dialog_title">Uploadovat do Sketchfabu</string>
+    <string name="sketchfab_pro">Modely větší než 50 MB vyžadují Sketchfab PRO konto, pokud PRO konto nemáte, upload selže.</string>
+    <string name="sketchfab_upload_ready">Model je zabalen a připraven k uploadu!</string>
+    <string name="tags">Tagy:</string>
+    <string name="upload">Upload</string>
+    <string name="upload_size_is">Celková velikost uploadu je</string>
+
+    <!-- Settings !-->
+    <string name="possion_reconstruction">Poissonova rekonstrukce</string>
+    <string name="possion_reconstruction_summary">Povolit algoritmus postprocessingu k opravě děr v geometrii modelu, tento algoritmus nefunguje dobře s otevřenými prostory a může značně prodloužit zpracovávání modelu</string>
+    <string name="realtime_noise_filter">Realtimový filtr šumu</string>
+    <string name="realtime_noise_filter_summary">Filtr šumu může značně zlepšit kvalitu, ale zpomaluje skenování</string>
+    <string name="solid_color_surface">Detekce jednobarevných povrchů</string>
+    <string name="solid_color_surface_summary">Zlepšuje skenování v interiérech, ale může způsobit neočekávané výsledky</string>
+    <string name="unsharp_textures">Oprava rozostřených textur</string>
+    <string name="unsharp_textures_summary">Tato metoda zlepší kvalitu textur modelu. Tato funkce značně zpomalí postprocessing</string>
+
+    <!-- Service !-->
+    <string name="action_continue">Pokračovat ve skenování</string>
+    <string name="action_show_result">Zobrazit výsledek</string>
+    <string name="action_finish">Dokončit</string>
+    <string name="action_cancel">Zrušit operaci</string>
+    <string name="enter_filename">Zadejte název souboru</string>
+    <string name="failed">Proces selhal, naskenovaná data jsou ztraceny!</string>
+    <string name="finished">Operace dokončena</string>
+    <string name="paused">Skenování pozastaveno</string>
+    <string name="postprocessing">Zpracovávám model…</string>
+    <string name="saving">Ukládám model…</string>
+    <string name="sketchfab_uploading">Uploaduji model do Sketchfabu…</string>
+    <string name="turn_off">Nyní můžete ukončit aplikaci bez ztráty dat.</string>
+    <string name="warning">Varování</string>
+    <string name="working">Aplikace pracuje, prosím nevypínejte zařízení a nespouštějte jinou AR aplikaci.</string>
+
+    <!-- Event !-->
+    <string name="event_bright">Příliš mnoho světla pro skenování</string>
+    <string name="event_dark">Příliš tmavo pro skenování</string>
+    <string name="event_features">Sledování pohybu detekovalo problém</string>
+    <string name="event_convert">Konvertuji data</string>
+    <string name="event_image">Zpracovávám fotku</string>
+    <string name="event_merge">Merguji výsledky</string>
+    <string name="event_process">Zpracovávám model</string>
+    <string name="event_simplify">Zjednodušuji geometrii</string>
+    <string name="event_unwrap">Rozbaluji textury</string>
+
+    <string-array name="resolutions">
+        <item>1 cm - pouze objekty</item>
+        <item>2 cm - malá místnost</item>
+        <item>3 cm - velká místnost</item>
+        <item>4 cm - interior</item>
+        <item>5 cm - exterior</item>
+    </string-array>
+</resources>
